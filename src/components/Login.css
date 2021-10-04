@@ -9,30 +9,32 @@
 }
 .login-box {
   display: flex;
-  width: 50%;
+  width: 60%;
   padding: 3rem;
   background-color: #f8f8f6;
   /* background: pink; */
   text-align: center;
   margin: auto;
-  margin-top: 4%;
+  margin-top: 3%;
   box-shadow: 0 0 5.3px rgb(114, 114, 114);
-  box-shadow: 0 0 8px rgba(124, 124, 124, 0.342);
+  /* box-shadow: 0 0 8px rgba(124, 124, 124, 0.342); */
 }
 .login-image {
-  width: 90%;
+  width: 80%;
+  /* width: 50%; */
 }
 .the-form {
   padding: 2rem;
-  width: 900px;
+  width: 100%;
   text-align: left;
   background: white;
   box-shadow: 0 0 8px rgb(226, 226, 226);
 }
 .the-form h1 {
-  margin-bottom: 20px;
+  font-size: 2.4rem;
   font-family: Montserrat;
   font-weight: 700;
+  margin-bottom: 16px;
 }
 input[type="email"],
 input[type="password"] {
@@ -43,14 +45,15 @@ input[type="password"] {
   border-radius: 6px;
   opacity: 0.3;
   padding: 10px 0px 10px 10px;
-  margin-top: 4px;
+  /* margin-top: 4px; */
+  margin-top: 0px;
   margin-bottom: 15px;
 }
 label {
   font-family: Montserrat;
   font-weight: 700;
-  font-size: 13px;
-  margin-left: 2px;
+  font-size: 0.813rem;
+  margin-left: 3px;
 }
 button {
   width: 100%;
@@ -62,10 +65,16 @@ button {
   /* background: black; */
   background: #beaa9a;
   color: white;
-  margin-top: 14px;
+  /* margin-top: 14px; */
   margin-bottom: 8px;
 }
-a {
+.link {
+  color: #beaa9a;
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: bold;
+}
+.link:hover {
   color: #beaa9a;
 }
 .remember {

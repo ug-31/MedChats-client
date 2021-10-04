@@ -2,7 +2,7 @@ import React from "react";
 import "./Login.css";
 import { Link } from "react-router-dom";
 
-function Login() {
+function Register() {
   return (
     <>
       <div className="login-box">
@@ -15,7 +15,7 @@ function Login() {
           />
         </div>
         <form className="the-form">
-          <h1>Login</h1>
+          <h1>Register</h1>
           <label htmlFor="email">Email Address</label>
           <br></br>
           <input
@@ -33,21 +33,25 @@ function Login() {
             placeholder="Enter 6 characters or more"
           ></input>
 
+          <label htmlFor="password">Confirm Password</label>
+          <br></br>
+          <input
+            type="password"
+            name="password"
+            placeholder="Enter your password again"
+          ></input>
+          <br></br>
           <input type="checkbox" name="remember"></input>
           <label className="remember" htmlFor="remember">
             Remember me
           </label>
           <br></br>
 
-          <button type="submit">LOGIN</button>
+          <button type="submit">Register</button>
           <br></br>
 
-          <Link className="link" to="/forgot">
-            Forgot Password?
-          </Link>
-          <br></br>
-          <Link className="link" to="/register">
-            Don't have an account? Sign Up
+          <Link className="link" to="/login">
+            Already have an account? Sign In
           </Link>
         </form>
       </div>
@@ -55,4 +59,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Register;
