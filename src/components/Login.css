@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.login-box {
+  display: flex;
+  width: 60%;
+  padding: 3rem;
+  background-color: #f8f8f6;
+  text-align: center;
+  margin: auto;
+  margin-top: 3%;
+  box-shadow: 0 0 5.3px rgb(114, 114, 114);
+  /* box-shadow: 0 0 8px rgba(124, 124, 124, 0.342); */
+}
+.login-image {
+  width: 80%;
+}
+.the-form {
+  padding: 2rem;
+  width: 100%;
+  text-align: left;
+  background: white;
+  box-shadow: 0 0 8px rgb(226, 226, 226);
+}
+.the-form h1 {
+  font-size: 2.4rem;
+  font-family: Montserrat;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+input[type="email"],
+input[type="password"] {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 100%;
+  height: 35px;
+  border: 2px solid black;
+  border-radius: 6px;
+  opacity: 0.3;
+  padding: 10px 0px 10px 10px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+label {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 0.813rem;
+  margin-left: 3px;
+}
+button {
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  padding: 13px;
+  font-family: Montserrat;
+  font-weight: 500;
+  background: #beaa9a;
+  color: white;
+  margin-bottom: 8px;
+}
+.link {
+  color: #beaa9a;
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: bold;
+}
+.link:hover {
+  color: #beaa9a;
+}
+.remember {
+  color: black;
+  font-weight: 300;
+  position: relative;
+  top: -1.6px;
+}
